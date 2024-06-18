@@ -1,6 +1,6 @@
 # SDF Presentation
 Loom Link: [Insert Here]
-Presentation Slides: [Insert Your Link Here]
+Presentation Slides: https://docs.google.com/presentation/d/1SHn6CZxkNg9iDuDnUUQ0xb5hsgcWXQwBl5dSiZZEs7M/edit?usp=sharing
 
 Presentation Slides Template: https://docs.google.com/presentation/d/1MTiIdjlDYyPIMa23tHK6QwpHWtk6G5zPw_n45aAr3D0/edit#slide=id.g1f203f4d459_0_15
 
@@ -9,7 +9,7 @@ Presentation Slides Template: https://docs.google.com/presentation/d/1MTiIdjlDYy
 
 # Slide 1: Introduction
 **Talking Points:**
-- Briefly introduce yourself, the project and its objectives.
+- Briefly introduce yourself, the project and its objectives
 - Overview of the tech stack used (HTML5, CSS3 with Tailwind, JavaScript).
 - Discuss the initial project setup, emphasizing the organization of the repository for easy collaboration.
 
