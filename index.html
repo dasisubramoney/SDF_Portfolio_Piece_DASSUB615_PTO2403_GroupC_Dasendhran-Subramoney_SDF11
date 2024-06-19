@@ -43,6 +43,7 @@
                 <!-- Changes colour when cursor hovering and rounds the edging -->
                 <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign up</button>
              </div>
+             <!-- Hamburger was created with this button/ applies padding and makes hidden on medium screens and up -->
              <button class="p-4 md:hidden" id="mobile-menu-toggle">
                         <svg
                     fill="none"
@@ -72,7 +73,7 @@
                     </defs>
                 </svg>
              </button>
-                <!-- -->
+                <!-- Absolute to contain the div in its container/ Overflow hises the content on medium screens -->
                 <div class="absolute hidden md:hidden flex md:flex flex-col items-start justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full px-4 py-8 shadow-main" id="mobile-menu">
                         <!-- Text small/ hover changes colour/ anchor which goes to diffrent sections -->
                         <a class="text-sm font-normal text-dark-gray-700 hover:text-dark-grey-900" href="#Product">Product</a>
@@ -250,7 +251,7 @@
                 </div>
 
                 <!-- Card 4 -->
-                <div class="flex flex-col items-center gap-6 px-6 py-5 shadow-main hover:bg-green-500 transition duration-300">
+                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300">
 
                     <div class="flex items-center justify-center w-16 h-16 rounded-2xl bg-pink-500">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
@@ -309,7 +310,7 @@
              <!-- Container with flex/ center -->
             <div class="container flex flex-col items-center gap-16 mx-auto my-32" >
                 <!-- Added grid with reponsiveness -->
-                <div class="grid w-full grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-8">
+                <div class="grid w-full grid-cols-1 md:grid-cols-2 gap-8 lg:grid-cols-4 ">
                     <!-- Container with flex display horizontally/ center -->
                     <div class="flex flex-col items-center">
                         <!-- Added a count from 1 to specified number -->
